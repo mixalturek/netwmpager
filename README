@@ -1,0 +1,35 @@
+
+	       netwmpager - EWMH (NetWM) compatible pager
+
+			Copyright Timo Hirvonen
+
+
+Installation
+------------
+
+./configure --help
+./configure
+make
+make install
+
+mkdir -p ~/.config/netwmpager
+cp config-example ~/.config/netwmpager/config
+
+
+Usage
+-----
+
+See `netwmpager -help' for instructions.
+
+
+Authors
+-------
+
+Timo Hirvonen <tihirvon@gmail.com>
+
+
+Contributors
+------------
+
+Marc Wilson <msw AT cox.net>
+ - Aspect ratio fix
