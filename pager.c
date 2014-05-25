@@ -1137,6 +1137,7 @@ void pager_button_release(struct pager *pager, int x, int y, int button)
 		if (pager->mouse.window_idx == -1) {
 			x_set_current_desktop(desk);
 		} else if (!pager->mouse.dragging) {
+			x_set_current_desktop(desk);
 			x_set_active_window(pager->windows[pager->mouse.window_idx].window, SOURCE_INDICATION_PAGER);
 		}
 	} else if (button == 2) {
