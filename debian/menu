@@ -1,0 +1,2 @@
+?package(netwmpager):needs="X11|wm" section="Applications/X11"\
+  title="netwmpager" command="/usr/bin/netwmpager"

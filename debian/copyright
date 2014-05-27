@@ -1,0 +1,15 @@
+This package was debianized by Andrey Tataranovich <build@lenny> on
+Fri, 04 Dec 2009 09:14:39 +0000.
+
+It was downloaded from http://ftp.osuosl.org/pub/gentoo/distfiles/netwmpager-1.11.tar.bz2
+
+Upstream Author
+
+    Timo Hirvonen <tihirvon@gmail.com>
+
+Copyright 2009 Timo Hirvonen <tihirvon@gmail.com>
+
+License GPLv2
+
+The Debian packaging is (C) 2009, Andrey Tataranovich <build@lenny> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.

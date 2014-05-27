@@ -1,0 +1,14 @@
+Source: netwmpager
+Section: x11
+Priority: extra
+Maintainer: Andrey Tataranovich <tataranovich@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev
+Standards-Version: 3.8.2
+Homepage: http://onion.dynserv.net/~timo/netwmpager.html
+
+Package: netwmpager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: EWMH (NetWM) compatible pager
+ EWMH (NetWM) compatible pager. Works with Openbox and other EWMH
+ compliant window managers.
