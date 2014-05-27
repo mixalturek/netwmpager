@@ -1,0 +1,7 @@
+*.o
+*.log
+/config.mk
+/netwmpager
+/build-stamp
+/debian/netwmpager*
+/debian/files

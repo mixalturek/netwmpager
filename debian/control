@@ -1,10 +1,10 @@
 Source: netwmpager
 Section: x11
 Priority: extra
-Maintainer: Andrey Tataranovich <tataranovich@gmail.com>
-Build-Depends: debhelper (>= 7), autotools-dev
+Maintainer: Michal Turek <mixal.turek@users.sf.net>
+Build-Depends: debhelper (>= 7), autotools-dev, pkg-config, libxft-dev
 Standards-Version: 3.8.2
-Homepage: http://onion.dynserv.net/~timo/netwmpager.html
+Homepage: https://github.com/mixalturek/netwmpager
 
 Package: netwmpager
 Architecture: any

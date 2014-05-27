@@ -2,7 +2,7 @@ VERSION	= 1.11
 
 all: build
 
-include config.mk
+-include config.mk
 include scripts/lib.mk
 
 CFLAGS	+= -g -I. $(XFT_CFLAGS) -DVERSION='"$(VERSION)"' -DDATADIR='"$(datadir)"'
@@ -10,7 +10,7 @@ CFLAGS	+= -g -I. $(XFT_CFLAGS) -DVERSION='"$(VERSION)"' -DDATADIR='"$(datadir)"'
 objs	:= file.o main.o opt.o pager.o sconf.o x.o xmalloc.o
 
 netwmpager: $(objs)
-	$(call cmd,ld,$(XFT_LIBS) -lm)
+	$(call cmd,ld,$(XFT_LIBS))
 
 clean		+= *.o netwmpager
 distclean	+= config.mk
@@ -18,8 +18,8 @@ distclean	+= config.mk
 build: netwmpager
 
 install: build
-	$(INSTALL) -m755 $(bindir) netwmpager
-	$(INSTALL) -m644 $(datadir)/netwmpager config-example
+	$(INSTALL) -m755 $(prefix)/$(bindir) netwmpager
+	$(INSTALL) -m644 $(prefix)/$(datadir)/netwmpager config-example
 
 tags:
 	exuberant-ctags *.[ch]
