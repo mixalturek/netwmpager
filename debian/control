@@ -10,5 +10,6 @@ Package: netwmpager
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: EWMH (NetWM) compatible pager
- EWMH (NetWM) compatible pager. Works with Openbox and other EWMH
- compliant window managers.
+ Netwmpager is a tiny NetWM / EWMH compatible pager with minimal
+ dependencies. It should work with all NetWM compatible window managers,
+ tested with Openbox and Pekwm. Transparency requires XComposite support.
