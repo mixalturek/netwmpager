@@ -1,0 +1,47 @@
+.TH netwmpager 1 "31 May 2014" "1.11" "netwmpager manual page"
+.SH NAME
+netwmpager \- EWMH (NetWM) compatible pager
+.SH SYNOPSIS
+netwmpager [OPTION]...
+.SH DESCRIPTION
+Netwmpager is a tiny NetWM / EWMH compatible pager with minimal dependencies. It should work with all NetWM compatible window managers, tested with Openbox and Pekwm. Transparency requires XComposite support.
+
+Mouse buttons
+  1: change desktop, activate window, move window to other desktop
+  2: move window
+.SH OPTIONS
+.TP
+.BI -display " NAME"
+X server to connect to
+.TP
+.B -help
+display this help and exit
+.TP
+.B -version
+output version information and exit
+.SH FILES
+.I $HOME/.config/netwmpager/config
+.RS
+configuration file
+.RE
+.I /usr/share/netwmpager/config-example
+.RS
+example configuration file
+.RE
+.I Fonts
+.RS
+Run `fc-list` to see available fonts. Example: Verdana:size=7.
+.RE
+.SH SEE ALSO
+.I http://onion.dynserv.net/~timo/netwmpager.html
+.RS
+original project website
+.RE
+.I https://github.com/mixalturek/netwmpager
+.RS
+latest source codes
+.RE
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Timo Hirvonen (tihirvon@gmail.com)
