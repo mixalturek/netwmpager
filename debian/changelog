@@ -1,4 +1,4 @@
-netwmpager (1.11-2) UNRELEASED; urgency=low
+netwmpager (1.11.1-1) UNRELEASED; urgency=low
 
   * Patch for incorrect desktop switching applied.
   * Debian packaging based on netwmpager 2.04-1, older versions are lost.
