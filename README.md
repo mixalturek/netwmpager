@@ -1,16 +1,18 @@
-# netwmpager - EWMH (NetWM) compatible pager
+# netwmpager
+
+EWMH (NetWM) compatible pager
 
 Copyright Timo Hirvonen
 
 Netwmpager is a tiny NetWM / EWMH compatible pager with minimal dependencies. It should work with all NetWM compatible window managers, tested with Openbox and Pekwm. Transparency requires XComposite support.
 
-![Screenshot](https://github.com/mixalturek/netwmpager/blob/master/doc/netwmpager-transparent.png)
-![Screenshot](https://github.com/mixalturek/netwmpager/blob/master/doc/netwmpager.png)
+![Screenshot](https://raw.githubusercontent.com/mixalturek/netwmpager/master/doc/netwmpager-transparent.png)
+![Screenshot](https://raw.githubusercontent.com/mixalturek/netwmpager/master/doc/netwmpager.png)
 
 
 ## Installation
 
-```bash
+```shell
 ./configure --help
 ./configure
 make
@@ -28,7 +30,7 @@ See `netwmpager -help` for instructions.
 
 ## ChangeLog
 
-- 1.11 (before 2006-04-25 - based on http://web.archive.org/)
+- 1.11 (about 2006-04-25)
     - ?
 - 1.10 (2006-04-15)
     - Small bug fix.
@@ -37,7 +39,8 @@ See `netwmpager -help` for instructions.
 - 1.8 (2006-04-05)
     - Bug fixes.
 - 1.7 (2005-12-18)
-    - Set WM_CLASS property for the pager window. This should make it possible to hide netwmpager from pypanel.
+    - Set WM_CLASS property for the pager window.
+    - This should make it possible to hide netwmpager from pypanel.
 
 
 ## Authors
@@ -48,12 +51,12 @@ Timo Hirvonen (tihirvon AT gmail.com)
 ## Contributors
 
 Marc Wilson (msw AT cox.net)
- - Aspect ratio fix.
+- Aspect ratio fix.
  
 Michal Turek (mixalturek AT users.sf.net)
- - Patch for incorrect desktop switching applied.
- - Debian package.
- - Manual page.
+- Patch for incorrect desktop switching applied.
+- Debian package.
+- Manual page.
 
 
 ## Notes About This Repository
