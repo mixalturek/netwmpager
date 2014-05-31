@@ -12,7 +12,7 @@ objs	:= file.o main.o opt.o pager.o sconf.o x.o xmalloc.o
 netwmpager: $(objs)
 	$(call cmd,ld,$(XFT_LIBS))
 
-clean		+= *.o netwmpager
+clean		+= *.o netwmpager .install.log build-stamp debian/files debian/netwmpager*
 distclean	+= config.mk
 
 build: netwmpager
