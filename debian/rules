@@ -2,12 +2,17 @@
 
 #export DH_VERBOSE=1
 
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
+
+
 config.status: configure
 	dh_testdir
 	./configure --prefix=/usr
 
 
-build: build-stamp
+build: build-stamp build-arch build-indep
 
 build-stamp:  config.status 
 	dh_testdir
@@ -16,6 +21,10 @@ build-stamp:  config.status
 	$(MAKE)
 
 	touch $@
+
+build-arch: build-stamp
+build-indep: build-stamp
+
 
 clean: 
 	dh_testdir
@@ -76,4 +85,4 @@ binary-arch: build install
 	dh_builddeb
 
 binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary install 
+.PHONY: build build-arch build-indep clean binary-indep binary-arch binary install 
