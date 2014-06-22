@@ -41,7 +41,7 @@ cd netwmpager-1.11.1
 
 debuild -us -uc
 
-sudo dpkg -i ../netwmpager_1.11.1-1_*.deb
+sudo dpkg -i ../netwmpager_1.11.1-*.deb
 
 mkdir -p ~/.config/netwmpager
 cp /usr/share/netwmpager/config-example ~/.config/netwmpager/config
