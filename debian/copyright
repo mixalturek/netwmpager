@@ -1,15 +1,29 @@
-This package was debianized by Andrey Tataranovich <build@lenny> on
-Fri, 04 Dec 2009 09:14:39 +0000.
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: netwmpager
+Source: https://github.com/mixalturek/netwmpager
 
-It was downloaded from http://ftp.osuosl.org/pub/gentoo/distfiles/netwmpager-1.11.tar.bz2
+Files: *
+Copyright: 2005-2006 Timo Hirvonen <tihirvon@gmail.com>
+           2014      Michal Turek <mixalturek@users.sf.net>
+License: GPL-2.0+
 
-Upstream Author
+Files: debian/*
+Copyright: 2014 Michal Turek <mixalturek@users.sf.net>
+License: GPL-2.0+
 
-    Timo Hirvonen <tihirvon@gmail.com>
-
-Copyright 2009 Timo Hirvonen <tihirvon@gmail.com>
-
-License GPLv2
-
-The Debian packaging is (C) 2009, Andrey Tataranovich <build@lenny> and
-is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+License: GPL-2.0+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

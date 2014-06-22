@@ -1,10 +1,12 @@
 Source: netwmpager
 Section: x11
 Priority: extra
-Maintainer: Michal Turek <mixal.turek@users.sf.net>
-Build-Depends: debhelper (>= 7), autotools-dev, pkg-config, libxft-dev
+Maintainer: Michal Turek <mixalturek@users.sf.net>
+Build-Depends: debhelper (>= 9.0.0), autotools-dev, pkg-config, libxft-dev
 Standards-Version: 3.9.5
 Homepage: https://github.com/mixalturek/netwmpager
+#Vcs-Git: git://git.debian.org/collab-maint/netwmpager.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/netwmpager.git;a=summary
 
 Package: netwmpager
 Architecture: any

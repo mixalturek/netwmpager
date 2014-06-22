@@ -1,2 +1,2 @@
-?package(netwmpager):needs="X11|wm" section="Applications/X11"\
+?package(netwmpager):needs="X11" section="Applications/System/Administration"\
   title="netwmpager" command="/usr/bin/netwmpager"

@@ -1,11 +1,17 @@
-netwmpager (1.11.1-1) UNRELEASED; urgency=low
+netwmpager (1.11.1-2) unstable; urgency=low
+
+  * Cleanup of debian build scripts, recreated using dh_make.
+
+ -- Michal Turek <mixalturek@users.sf.net>  Sun, 22 Jun 2014 15:14:14 +0200
+
+netwmpager (1.11.1-1) unstable; urgency=low
 
   * Patch for incorrect desktop switching applied.
   * Debian packaging based on netwmpager 2.04-1, older versions are lost.
   * Warnings reported by lintian fixed.
   * Manual page created.
 
- -- Michal Turek <mixal.turek@users.sf.net>  Tue, 27 May 2014 21:42:49 +0200
+ -- Michal Turek <mixalturek@users.sf.net>  Tue, 27 May 2014 21:42:49 +0200
 
 netwmpager (1.11-1) unstable; urgency=low
 
