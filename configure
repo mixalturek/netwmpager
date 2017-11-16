@@ -61,6 +61,7 @@ var_default datadir "${prefix}/share"
 var_default mandir "${prefix}/share/man"
 
 CFLAGS="${CFLAGS} ${EXTRA_CFLAGS} -DDEBUG=$DEBUG"
+LDFLAGS="-lXrender -lfontconfig -lfreetype -lz -lX11"
 
 makefile_vars bindir datadir mandir
 generate_config_mk
