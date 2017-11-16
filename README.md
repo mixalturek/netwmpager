@@ -47,6 +47,15 @@ mkdir -p ~/.config/netwmpager
 cp /usr/share/netwmpager/config-example ~/.config/netwmpager/config
 ```
 
+Build inside Docker container to not mess OS by development packages.
+
+```bash
+cd docker
+docker build --tag netwmpager-build .
+docker run --rm -v `pwd`:/mnt netwmpager-build cp /build/netwmpager_1.11.2-1_amd64.deb /build/netwmpager-dbgsym_1.11.2-1_amd64.deb /mnt
+docker rmi netwmpager-build
+```
+
 
 ## Usage
 
