@@ -17,8 +17,8 @@ Netwmpager is a tiny NetWM / EWMH compatible pager with minimal dependencies. It
 Download a tarbal from Releases/Tags.
 
 ```shell
-tar -xf netwmpager-1.11.1.tar.gz
-cd netwmpager-1.11.1
+tar -xf netwmpager-1.11.2.tar.gz
+cd netwmpager-1.11.2
 
 ./configure --help
 ./configure
@@ -35,13 +35,13 @@ cp config-example ~/.config/netwmpager/config
 Download a tarbal from Releases/Tags.
 
 ```shell
-cp netwmpager-1.11.1.tar.gz netwmpager_1.11.1.orig.tar.gz
-tar -xf netwmpager_1.11.1.orig.tar.gz
-cd netwmpager-1.11.1
+cp netwmpager-1.11.2.tar.gz netwmpager_1.11.2.orig.tar.gz
+tar -xf netwmpager_1.11.2.orig.tar.gz
+cd netwmpager-1.11.2
 
 debuild -us -uc
 
-sudo dpkg -i ../netwmpager_1.11.1-*.deb
+sudo dpkg -i ../netwmpager_1.11.2-*.deb
 
 mkdir -p ~/.config/netwmpager
 cp /usr/share/netwmpager/config-example ~/.config/netwmpager/config

@@ -1,3 +1,9 @@
+netwmpager (1.11.2-1) unstable; urgency=low
+
+  * Fix linker error under Debian Buster.
+
+ -- Michal Turek <mixalturek@users.sf.net>  Thu, 16 Nov 2017 22:12:14 +0200
+
 netwmpager (1.11.1-2) unstable; urgency=low
 
   * Cleanup of debian build scripts, recreated using dh_make.
